@@ -3,8 +3,8 @@ attach one with one subnet and igw and Create a security group for EC2 instance,
 and create an EC2 instance with a AMI */
 provider "aws" {
   region = "us-east-2" # Northern Virginia region
-  access_key = "AKIAU72RJFK7PN5AOW6I"
-  secret_key = "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"
+  access_key = "*******"
+  secret_key = "*******"
 }
 # VPC creation
 resource "aws_vpc" "main" {
